@@ -1,5 +1,5 @@
 Summary:	XINE browser plugin
-Summary(pl):	Wtyczka XINE dla przegl±darek WWW
+Summary(pl.UTF-8):   Wtyczka XINE dla przeglƒÖdarek WWW
 Name:		browser-plugin-xine
 Version:	1.0
 Release:	1
@@ -33,20 +33,20 @@ Features:
 - multiple instances within the same page
 - JavaScript support
 
-%description -l pl
-Bardzo prosta wtyczka dla przegl±darek Netscape/Mozilla uøywaj±ca
-silnika XINE do wy∂wietlania strumieni multimedialnych.
+%description -l pl.UTF-8
+Bardzo prosta wtyczka dla przeglƒÖdarek Netscape/Mozilla u≈ºywajƒÖca
+silnika XINE do wy≈õwietlania strumieni multimedialnych.
 
-Moøliwo∂ci:
-- wy∂wietlanie osadzone w okienku przegl±darki
-- odtwarzanie strumieni bezpo∂rednio z silnika XINE
-- sterowanie odtwarzaniem przy uøyciu klawiatury
-- obs≥uga wzglÍdnych ∂cieøek
-- wy∂wietlanie na ekranie (OSD) informacji o buforowaniu i strumieniu
-- obs≥uga playlist i w≥asnych ustawieÒ
-- tryb pÍtli i powtarzania
+Mo≈ºliwo≈õci:
+- wy≈õwietlanie osadzone w okienku przeglƒÖdarki
+- odtwarzanie strumieni bezpo≈õrednio z silnika XINE
+- sterowanie odtwarzaniem przy u≈ºyciu klawiatury
+- obs≈Çuga wzglƒôdnych ≈õcie≈ºek
+- wy≈õwietlanie na ekranie (OSD) informacji o buforowaniu i strumieniu
+- obs≈Çuga playlist i w≈Çasnych ustawie≈Ñ
+- tryb pƒôtli i powtarzania
 - wiele instancji na tej samej stronie
-- obs≥uga JavaScriptu
+- obs≈Çuga JavaScriptu
 
 %prep
 %setup -q -n xine-plugin-%{version}
