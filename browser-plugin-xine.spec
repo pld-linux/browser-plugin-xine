@@ -1,5 +1,5 @@
 Summary:	XINE browser plugin
-Summary(pl.UTF-8):   Wtyczka XINE dla przeglądarek WWW
+Summary(pl.UTF-8):	Wtyczka XINE dla przeglądarek WWW
 Name:		browser-plugin-xine
 Version:	1.0
 Release:	1
