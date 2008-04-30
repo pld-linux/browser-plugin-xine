@@ -1,15 +1,15 @@
 Summary:	XINE browser plugin
 Summary(pl.UTF-8):	Wtyczka XINE dla przeglądarek WWW
 Name:		browser-plugin-xine
-Version:	1.0
+Version:	1.0.1
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Multimedia
 Source0:	http://dl.sourceforge.net/xine/xine-plugin-%{version}.tar.bz2
-# Source0-md5:	05498789ac11990d5ddd05269671ad0d
+# Source0-md5:	56f826f5ca85543df114d25591147970
 BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.357
-BuildRequires:	xine-lib-devel >= 2:1.0.0
+BuildRequires:	xine-lib-devel >= 1.1.0
 BuildRequires:	xorg-lib-libX11-devel
 Requires:	browser-plugins >= 2.0
 Requires:	browser-plugins(%{_target_base_arch})
