@@ -9,7 +9,7 @@ Source0:	http://dl.sourceforge.net/xine/xine-plugin-%{version}.tar.bz2
 # Source0-md5:	56f826f5ca85543df114d25591147970
 BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.357
-BuildRequires:	xine-lib-devel >= 1.1.0
+BuildRequires:	xine-lib-devel >= 2:1.1.0
 BuildRequires:	xorg-lib-libX11-devel
 Requires:	browser-plugins >= 2.0
 Requires:	browser-plugins(%{_target_base_arch})
