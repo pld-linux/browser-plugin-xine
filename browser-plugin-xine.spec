@@ -7,6 +7,7 @@ License:	GPL v2+
 Group:		X11/Applications/Multimedia
 Source0:	http://dl.sourceforge.net/xine/xine-plugin-%{version}.tar.bz2
 # Source0-md5:	56f826f5ca85543df114d25591147970
+BuildRequires:	gcc-c++
 BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.357
 BuildRequires:	xine-lib-devel >= 2:1.1.0
