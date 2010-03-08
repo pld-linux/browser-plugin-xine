@@ -7,7 +7,6 @@ License:	GPL v2+
 Group:		X11/Applications/Multimedia
 Source0:	http://dl.sourceforge.net/xine/xine-plugin-%{version}.tar.bz2
 # Source0-md5:	dde79a4d12270cbe0c71a0c1afa41111
-BuildRequires:	libstdc++-devel
 BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.357
 BuildRequires:	xine-lib-devel >= 2:1.1.0
@@ -15,6 +14,8 @@ BuildRequires:	xorg-lib-libX11-devel
 Requires:	browser-plugins >= 2.0
 Requires:	browser-plugins(%{_target_base_arch})
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%undefine	__cxx
 
 # directory where you store the plugin
 %define		_plugindir	%{_libdir}/browser-plugins
